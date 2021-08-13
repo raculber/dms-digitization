@@ -1,0 +1,85 @@
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.icon {
+  margin-right: 20px;
+}
+.icon:hover {
+  cursor: pointer;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 15%;
+}
+.form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.form label {
+  font-size: 20px;
+  margin-left: 0;
+  padding-right: 10px;
+  margin-top: 15px;
+}
+.form select {
+  width: 15%;
+  padding: 8px 16px;
+  margin: 8px 0;
+  margin-right: 5%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+.form input[type="date"] {
+  width: 15%;
+  font-size: 15px;
+  padding: 8px 16px;
+  margin: 8px 0;
+  margin-right: 5%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+.nav {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  overflow: hidden;
+  background-color: white;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav li p {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 4px;
+  color: lightgray;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.nav li p:hover:not(.active) {
+  color: rgb(39, 39, 39);
+}
+.nav li p:hover {
+  cursor: pointer;
+}
+
+.nav p.active {
+  color: rgb(39, 39, 39);
+  border-bottom: 3px solid;
+  border-bottom-color: rgb(39, 39, 39);
+}

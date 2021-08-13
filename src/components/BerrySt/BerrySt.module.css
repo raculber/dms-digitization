@@ -1,0 +1,13 @@
+
+.content {
+  display: flex;
+  flex-direction: column;
+
+}
+.icon {
+  margin-right: 50px;
+}
+.icon:hover {
+  cursor: pointer;
+
+}

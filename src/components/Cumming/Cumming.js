@@ -1,0 +1,24 @@
+import classes from "./Cumming.module.css";
+
+import Header from "../UI/Header";
+
+import { AiFillHome } from "react-icons/ai";
+import { useHistory } from "react-router";
+
+const Cumming = (props) => {
+  const history = useHistory();
+  const homeNavHandler = () => {
+    history.push("/");
+  };
+
+  return (
+    <div className={classes.content}>
+      <Header headerType="Secondary">
+        <AiFillHome onClick={homeNavHandler} className={classes.icon} />
+        Cumming
+      </Header>
+    </div>
+  );
+};
+
+export default Cumming;

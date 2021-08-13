@@ -1,0 +1,32 @@
+
+.header {
+    width: 100%;
+    max-height: 10%;
+    background-color: rgba(0, 37, 84, 1);
+    color: white;
+    padding: 15px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.secondary{
+    width: 100%;
+    max-height: 10%;
+    background-color: rgba(0, 37, 84, 1);
+    color: white;
+    padding: 15px;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+
+}
+@media(max-width: 500px) {
+    .header {
+        font-size: 20px;
+    }
+    .secondary {
+        font-size: 20px;
+    }
+}
